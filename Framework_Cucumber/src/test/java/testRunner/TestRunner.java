@@ -18,6 +18,7 @@ import io.cucumber.junit.CucumberOptions;
 		plugin= {
 				"pretty", 
 				"json:test-output/JSON/JSONCucumber.json",
+				"rerun:target/failedrerun.txt"
 			
 				}
 	//	tags= "@sanity and not @regression"
